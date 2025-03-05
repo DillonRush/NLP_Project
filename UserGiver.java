@@ -80,6 +80,9 @@ import java.util.Scanner;
       System.out.println("Are you ready to see your username? (Type anything)");
       String finalStep = input.nextLine();
       
+      System.out.println("\n");
+      System.out.println("\n");
+
       int randNumber = (int)(Math.random() * 999); 
       System.out.println("Here is your username together: " + randAdj + randNoun + randNumber); 
 
